@@ -18,5 +18,8 @@ struct Node
 };
 
 void split(Node*& in, Node*& odds, Node*& evens);
+void addtolist(Node*& list, Node* newnode);
+
+//are these all reference variables? but also pointers?
 
 #endif
